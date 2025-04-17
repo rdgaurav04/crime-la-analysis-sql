@@ -1,0 +1,39 @@
+-----------------------------------
+Crimes Data Dictionary
+-----------------------------------
+
+report_no		 int  				Unique Record number
+incident_time	 	 time      			Time of the crime occurrence
+complaint_type	 	 object				Which mode complaint is registered
+cctv_flag	 	 object				At the crime scene whether the CCTV footage is available or not
+precinct_code	 	 int				Unique code reprenting a precinct in a city
+area_code		 int				Unique code of that locality
+population_density	 int				Population density of the locality
+area_name		 object				Locality name 
+cctv_count		 int				Number of CCTV active in the locality
+rounds_per_day		 int				How many rounds patrolling cars are taking for each area code.
+crime_code		 int				Unique code for the crime type
+crime_type		 object				Description of the crime committed
+weapon_code		 int				Unique code for the weapon used
+weapon_desc		 object				Type of weapon used for the crime
+case_status_code         object				Unique code for the case status(IC- Investigation Continues, AA- Adult Arrest, AO- Adult Other)
+case_status_desc         object				Defines the status code provided
+victim_code		 int				Unique code of the victim
+victim_name		 object				Name of the victim
+victim_age		 int				Victim age
+victim_sex		 object				Gender of the victim
+was_victim_alone	 object				Was victim alone during crime scene
+is_victim_insured	 object				Is the victim insured
+offender_code		 int				Unique code of the offender
+offender_name		 object				Name of the offender
+offender_sex	         object				Gender of the offender
+offender_age	 	 int				Age of the offender
+repeated_offender	 object				Is the offender repeated the crime
+no_of_offences	 	 int				How many cases are registered against that offender
+offender_relation	 object				Is the offender is a relative of the victim
+officer_code	 	 int				Unique code of the officer
+officer_name		 object				Name of the officer
+officer_sex	 	 object				Gender of the officer
+avg_close_days	 	 int				Average days officer is taking to solve a case
+week_number	         int				In which week the crime occurred
+

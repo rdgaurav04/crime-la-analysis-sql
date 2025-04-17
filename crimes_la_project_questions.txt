@@ -1,0 +1,63 @@
+Question 1:
+What is the total number of crimes for each crime status? [2 marks]
+
+Hint: Count the number of crimes for different case statuses.
+
+Question 2:
+Which was the most frequent crime committed each week? [3 marks]
+
+Hint: Use a subquery and the windows function to find out the number of crimes reported each week and assign a rank. 
+Then find the highest crime committed each week
+
+Question 3:
+Does the existence of CCTV cameras deter crimes from happening? [3 marks]
+
+Hint: Check if there is a correlation between the number of CCTVs in each area and the crime rate.
+
+Question 4:
+How much footage has been recovered from the CCTV at the crime scene? [3 marks]
+
+Hint: Count the number of cctv's and then use the case when function to separately count when cctv_flag is true and then compare both.
+
+Question 5:
+What is the frequency of various complaint types? [2 marks]
+
+Hint: Find the complaint type along with the count of crime.
+
+Question 6:
+Is crime more likely to be committed by the relation of victims or strangers? [2 marks]
+
+Hint: Count the number of crime grouped by offender relation.
+
+Question 7:
+Is crime more prevalent in areas with a higher population density, fewer police personnel, and a larger precinct area? [3 marks]
+
+Add the population density, count the total areas, total officers and cases reported in each precinct code and check the trend
+
+Question 8:
+At what parts of the day is the crime rate at its peak? Group this by the type of crime. Use the following mapping to divide the day into five parts. [5 marks]
+00:00 to 05:00 = Midnight, 
+05:01 to 12:00 = Morning, 
+12:01 to 18:00 = Afternoon,
+18:01 to 21:00 = Evening, 
+21:00 to 24:00 = Night
+
+Hint: Use Extract(Hour) function along with Case when to divide the Day.Use a subquery, windows function to find the number of crimes reported each week and assign the rank.
+Then find out at what points of the day the crime rate is at its peak.
+
+Question 9:
+At what point in the day do most crimes occur in different localities? Use the same mapping provided in Question 8 to divide the day into five parts. [5 marks]
+
+Hint: Use Extract(Hour) function along with Case when to divide the Day. Use a subquery and the windows function to find the number of crimes reported in each area and assign the rank.
+Then find out at what point in the day more crimes occur in a different locality.
+
+Question 10:
+Which age group of people is more likely to fall victim to crimes at certain points in the day? Use the same mapping provided in Question 8 for dividing the day into five parts. Additionally, use the following mapping for dividing the age group. [5 marks]
+Age 0 to 12: kids 
+13 to 23: teenage
+24 to 35: Middle age
+36 to 55: Adults
+56 to 120: old
+
+Hint: Use the case when function to divide the age group and also use Extract(Hour) function along with Case when to divide the Day. Count the number of crimes grouping by the age group and part of the day.
+ 
