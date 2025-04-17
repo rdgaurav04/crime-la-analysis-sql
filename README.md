@@ -1,24 +1,24 @@
-# 🔍 Crime Analytics in Los Angeles (SQL Project)
+# Crime Analytics in Los Angeles (SQL Project)
 
 This project analyzes crime data in Los Angeles using raw SQL to answer critical business questions for law enforcement and city planners.
 
 ---
 
-## 🎯 Objective
+## Objective
 The newly formed Criminal Investigation Division in LA is analyzing crime patterns to improve policing.  
 This project answers **10 key questions** using SQL queries on a structured relational database.
 
 ---
 
-## 📊 Project Highlights
-- ✅ SQL-based Data Exploration
-- ✅ Joins, Subqueries, Window Functions, Grouping
-- ✅ ER Diagram Interpretation
-- ✅ Data-driven Crime Prevention Insights
+## Project Highlights
+- SQL-based Data Exploration
+- Joins, Subqueries, Window Functions, Grouping
+- ER Diagram Interpretation
+- Data-driven Crime Prevention Insights
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 | Folder      | Contents |
 |-------------|----------|
@@ -29,7 +29,7 @@ This project answers **10 key questions** using SQL queries on a structured rela
 
 ---
 
-## ❓ Business Questions Answered
+## Business Questions Answered
 
 1. Total number of crimes per status
 2. Most frequent crime each week
@@ -42,11 +42,11 @@ This project answers **10 key questions** using SQL queries on a structured rela
 9. Peak crime time by locality
 10. Victim age groups most targeted by time of day
 
-👉 See [`queries/guided_project_query.sql`](queries/guided_project_query.sql)
+
 
 ---
 
-## 🧠 Tools Used
+## Tools Used
 
 - PostgreSQL / MySQL
 - SQL Joins, Window Functions, Case Statements
@@ -55,27 +55,18 @@ This project answers **10 key questions** using SQL queries on a structured rela
 
 ---
 
-## 📸 ER Diagram
-[View Diagram](docs/crimes_la_ER_diagram.pdf)
 
----
-
-## 👀 Insights & Takeaways
+## Insights & Takeaways
 - Areas with high population density + low officer count have higher crime rates
 - CCTV footage helps but doesn’t deter crimes
 - Domestic crimes are significant—especially evenings
 - Most crimes happen between **evening to night**; young adults & elderly most affected
 
----
 
-## 💼 Ideal For
-- Data Analyst Portfolio
-- SQL Query Practice
-- Interview Prep (Joins, Case, Window functions)
 
 ---
 
-## 📌 How to Run This Project
+## How to Run This Project
 1. Import the SQL dump file from `data/crime_la_project_dumpfile.sql` into MySQL/PostgreSQL
 2. Open and run each query from `queries/guided_project_query.sql`
 3. Refer to `docs/` for schema, questions, and definitions
@@ -83,9 +74,5 @@ This project answers **10 key questions** using SQL queries on a structured rela
 ---
 
 ## 👤 Author
-**Your Name**  
-[GitHub Profile](https://github.com/yourusername) • [LinkedIn](https://linkedin.com/in/yourlinkedin)
-
----
-
-⭐️ Star this repo if it helped you, and feel free to fork!
+**Gaurav Kumar**  
+• [LinkedIn](https://www.linkedin.com/in/gaurav-kumar-rd/)
